@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>Welcome to our college</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter Your Name"><br>
+            <label for="sectionida">
+                <input type="radio" value="cse" name="section" id="sectionida"> CSE
+            </label>
+            <label for="sectionidb">
+                <input type="radio" value="ise" name="section" id="sectionidb"> ise
+            </label>
+            <label for="sectionidc">
+                <input type="radio" value="enc" name="section" id="sectionidc" class="red blue"> enc
+            </label><br>
+            <input type="checkbox" id="hostel" class="red" name="hostel">
+            <label for="hostel">want hodtel facility</label><br>
+          
+            <textarea name="explain" id="explain" cols="30" rows="10" placeholder="What extra facility you need "></textarea>
+            <select name="food" id="food">
+
+                <option value="food">select your food</option>
+                <option value="veg">veg</option>
+                <option value="non veg">non veg</option>
+                <option value="veg with egg">veg with egg</option>
+             
+        </form>
+    </div>
+</body>
+
+</html>
